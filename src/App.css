@@ -1,0 +1,13 @@
+.my-container {
+    border: 1px solid #ebebeb;
+    height: 300px;
+    margin: 2rem auto;
+    -ms-overflow-style: none;
+    overflow: scroll;
+    scrollbar-width: none;
+    width: fit-content;
+}
+
+.my-container::-webkit-scrollbar {
+    display: none;
+}
